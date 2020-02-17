@@ -43,23 +43,7 @@ header::before{
   transform: translateZ(-1px) scale(2);
   z-index: -1;
   min-height: 100vh;
-  /*animation: slide 300s infinite;
-}
-   Effect slide with montain
- @keyframes slide{
-  25%{
-    background-image: url(../img/summerbummer.png);
-  }
-  50%{
-    background-image: url(../img/montain.png);
-  }
-  75%{
-    background-image: url(../img/summerbummer.png);
-  }
-  100%{
-    background-image: url(../img/montain.png);
-  }
-} */
+
 .clouds {
   position: absolute;
   width: 100%;
@@ -152,9 +136,7 @@ a{
     h1, h2, h3, p, a {
       width: 100%;
       text-align: center;
-      line-height: 10px;
-      margin-top: 16px;
-      margin-bottom: 16px;
+      line-height: normal;
     }
     .logo, .menu-principal {
       width: 93vw;
