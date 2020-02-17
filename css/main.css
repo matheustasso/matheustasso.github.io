@@ -45,6 +45,7 @@ header::before{
   min-height: 100vh;
   animation: slide 300s infinite;
 }
+
 @keyframes slide{
   25%{
     background-image: url(../img/montain.png);
