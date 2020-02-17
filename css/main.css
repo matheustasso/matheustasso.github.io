@@ -1,0 +1,172 @@
+html{
+  height: 100%;
+  overflow: hidden;
+}
+body{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+header{
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 30vw 0 5vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+}
+header{
+  margin-top: -0.8px;
+  font-size: 40px;
+  text-align: center;
+}
+header.header::before{
+  background: 50% 50% / cover;
+}
+header::before{
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background-image: url(../img/montain.png);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+  animation: slide 300s infinite;
+}
+@keyframes slide{
+  25%{
+    background-image: url(../img/summerbummer.png);
+  }
+  50%{
+    background-image: url(../img/montain.png);
+  }
+  75%{
+    background-image: url(../img/summerbummer.png);
+  }
+  100%{
+    background-image: url(../img/montain.png);
+  }
+}
+.clouds {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0.1%;
+  background: url(../img/clouds.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+header * {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 0;
+  padding: 1;
+}
+.menu-principal {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 100vh;
+}
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.logo {
+  float: left;
+  padding: 25px;
+  width: 70%;
+}
+.redes-sociais ul li {
+  margin-left: 15px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+.redes-sociais {
+  width: 20%;
+  float: left;
+  display: inline-block;
+  list-style: none;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.footer {
+  color: #ccc;
+  padding-top: 90px;
+  text-align: center;
+}
+h1{
+  color: #ccc;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 35px;
+}
+h2{
+  color: #ccc;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 70px;
+}
+p, h3{
+  color: #ccc;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  line-height: 0.5px;
+  padding-bottom: 15;
+}
+a{
+  color: #ccc;
+  text-align: justify center;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+    h1, h2, h3, p, a {
+      width: 100%;
+      text-align: center;
+      line-height: normal;
+    }
+    .logo, .menu-principal {
+      width: 93vw;
+      text-align: center;
+      vertical-align: middle;
+      display: inline;
+    }
+    .redes-sociais {
+      width: 90vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center
+    }
+    .parallax {
+      width: 250px;
+    }
+}
