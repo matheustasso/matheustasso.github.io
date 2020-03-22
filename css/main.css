@@ -156,7 +156,7 @@ a{
   padding-top: 30px;
   text-decoration: none;
 }
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
     h1, h2, h3, p, a {
       width: 100%;
       text-align: center;
