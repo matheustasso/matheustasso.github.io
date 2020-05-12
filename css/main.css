@@ -20,11 +20,28 @@ header{
   position: relative;
   transform-style: inherit;
   width: 100vw;
-}
-header{
   margin-top: -0.8px;
   font-size: 40px;
   text-align: center;
+}
+.clouds li{
+  padding: 5px;
+}
+.clouds ul{
+  margin-right: 45px;
+}
+.clouds a{
+  color: rgb(148, 148, 148);
+  font-size: medium;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+.sobre-skills{
+  margin-left: -5px;
+}
+.redes-sociais {
+  margin-bottom: 40px;
+  margin-left: 50px;
 }
 header.header::before{
   background: 50% 50% / cover;
@@ -98,18 +115,26 @@ main {
   width: 980px;
   position: relative;
 }
+nav{
+  text-align: center;
+}
+nav li{
+  padding-top: 50px;
+  display: inline-block;
+}
 .logo {
   float: left;
   padding: 25px;
   width: 70%;
 }
 .redes-sociais ul li {
-  margin-left: 15px;
+  margin-left: 10px;
   display: inline-block;
   float: left;
   list-style: none;
 }
 .redes-sociais {
+  margin-left: 20px;
   width: 20%;
   float: left;
   display: inline-block;
@@ -156,6 +181,81 @@ a{
   padding-top: 30px;
   text-decoration: none;
 }
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+.skills{
+  padding-bottom: 90px;
+  width: 500px;
+  margin: 60px auto;
+  color: #ccc;
+}
+.skills li{
+  margin: 30px 0;
+}
+.bar {
+  background: #353b48;
+  display: block;
+  height: 13px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #cdedffb3;
+}
+.bar span{
+  height: 13px;
+  float: left;
+  background: #b5d1d3;
+}
+.html{
+  width: 50%;
+  animation: html 2s;
+}
+.css{
+  width: 35%;
+  animation: css 2s;
+}
+.javascript{
+  width: 20%;
+  animation: javascript 2s;
+}
+.vuejs{
+  width: 10%;
+  animation: vuejs 2s;
+}
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+@keyframes javascript {
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes vuejs {
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
 @media (max-width: 1300px) {
     h1, h2, h3, p, a {
       width: 100%;
@@ -176,10 +276,14 @@ a{
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: center
+      align-items: center;
+    }
+    .redes-sociais ul{
+      padding-right: 40px;
     }
     .parallax {
       width: 250px;
+      padding-left: 25px;
     }
     header{
       box-sizing: border-box;
@@ -188,5 +292,20 @@ a{
       position: relative;
       transform-style: inherit;
       width: 100vw;
+    }
+    .skills{
+      padding-bottom: 90px;
+      width: 250px;
+      margin: 60px auto;
+      color: #ccc;
+    }
+    .clouds ul{
+      padding-right: 35px;
+    }
+    .clouds a{
+      color: rgb(148, 148, 148);
+      font-size: small;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
     }
 }

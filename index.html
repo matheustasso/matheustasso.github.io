@@ -5,20 +5,37 @@
   <link rel="stylesheet" type="text/css" href="./css/main.css">
   <title>Matheus Tasso | Front-End </title>
   <link rel="shortcut icon" href="../img/bigode.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script>
+jQuery(document).ready(function($) { 
+    $(".scroll").click(function(event){        
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+   });
+});
+</script>
 </head>
 
 <body>
   <header>
     <img class="parallax" src="./img/tasso-parallax.png">
   </header>
-  <div class="clouds"></div>
+  <div class="clouds">
+    <nav class="sobre-skills">
+      <ul>
+        <li><a class="scroll" href="#sobre">SOBRE </a></li>
+        <li><a>•</a></li>
+        <li></li><a class="scroll" href="#habilidades">SKILLS</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="menu-principal">
     <main class="col-100">
       <div class="header-1">
         <div class="logo">
-          <img src="./img/logo-tasso.png" />
         </div>
-        <div class="redes-sociais">
+        <div id="sobre" class="redes-sociais">
           <ul>
             <li><a href="https://www.linkedin.com/in/matheustasso/" target="_blank"><img src="./img/linkedin.png" /></a>
             </li>
@@ -36,7 +53,7 @@
             <div class="about-intro">
               <!-- ./about -->
               <div class="profile">
-                <img src="./img/tasso.jpeg" class="img-desc" alt="profile" />
+                <img src="./img/profiletasso.jpg" class="img-desc" alt="profile" />
               </div>
               <div>
                 <h1 class="about-title">Olá, meu nome é Matheus Tasso!</h1>
@@ -58,6 +75,28 @@
           </article>
         </div>
         <!-- ./about -->
+      </div>
+      <div id="habilidades" class="skills">
+        <h1>Habilidades</h1>
+        <li>  
+
+
+        </li><h3>HTML: Intermediário</h3><span class="bar"><span class="html"></span></span>
+
+        <li>  
+
+
+        </li><h3>CSS: Iniciante</h3><span class="bar"><span class="css"></span></span>
+
+        <li>  
+
+
+        </li><h3>JAVASCRIPT: Iniciante</h3><span class="bar"><span class="javascript"></span></span>
+
+        <li>  
+
+
+        </li><h3>VUE.JS: Iniciante</h3><span class="bar"><span class="vuejs"></span></span>
       </div>
       <section class="footer">
         <p>Quer realizar um projeto? <a href="mailto:matheustassosc@gmail.com" target="_blank">Me mande um email.</a>
