@@ -266,12 +266,12 @@ a{
 }
 @media (max-width: 1300px) {
     h1, h2, h3, p, a {
-      width: 100%;
+      width: 98%;
       text-align: center;
       line-height: normal;
     }
     .profile img {
-      margin-left: 22px;
+      margin-left: 44%;
     }
     .logo, .menu-principal {
       width: 93vw;
