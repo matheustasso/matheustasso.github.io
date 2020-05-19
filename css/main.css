@@ -271,7 +271,7 @@ a{
       line-height: normal;
     }
     .profile img {
-      margin-left: 44%;
+      margin-left: 30%;
     }
     .logo, .menu-principal {
       width: 93vw;
@@ -308,7 +308,7 @@ a{
       color: #ccc;
     }
     .clouds ul{
-      padding-right: 35px;
+      padding-right: -12px;
     }
     .clouds a{
       color: rgb(148, 148, 148);
