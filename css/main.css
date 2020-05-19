@@ -54,7 +54,7 @@ header::before{
   right: 0;
   top: 0;
   display: block;
-  background-image: url(../img/montain.png);
+  background-image: url(../img/sunset.jpg);
   background-size: cover;
   transform-origin: center center 0;
   transform: translateZ(-1px) scale(2);
@@ -68,13 +68,13 @@ header::before{
     background-image: url(../img/montain.png);
   }
   50%{
-    background-image: url(../img/montain.png);
+    background-image: url(../img/sunset.jpg);
   }
   75%{
     background-image: url(../img/montain.png);
   }
   100%{
-    background-image: url(../img/montain.png);
+    background-image: url(../img/sunset.jpg);
   }
 }
 .profile img {
@@ -217,11 +217,11 @@ a{
   padding: 3px;
 }
 .html{
-  width: 50%;
+  width: 40%;
   animation: html 2s;
 }
 .css{
-  width: 35%;
+  width: 30%;
   animation: css 2s;
 }
 .javascript{
@@ -253,7 +253,7 @@ a{
     width: 0%;
   }
   100% {
-    width: 20%;
+    width: 15%;
   }
 }
 @keyframes vuejs {
@@ -261,7 +261,7 @@ a{
     width: 0%;
   }
   100% {
-    width: 10%;
+    width: 8%;
   }
 }
 @media (max-width: 1300px) {
