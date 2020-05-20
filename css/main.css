@@ -159,35 +159,40 @@ h1{
   color: #ccc;
   text-align: center;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 40px;
 }
 h2{
   color: #ccc;
   text-align: center;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 70px;
 }
 p, h3{
   color: #ccc;
   text-align: center;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
   padding-top: 10px;
   line-height: 0.5px;
   padding-bottom: 15;
 }
+p {
+  font-weight: lighter;
+}
 a{
   color: #7FFFD4;
   text-align: justify center;
-  font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
   padding-top: 30px;
   text-decoration: none;
 }
+.ciano {
+  color: #7FFFD4;
+}
 *{
-  font-family: Arial, Helvetica, sans-serif;
   list-style: none;
 }
 .skills{
@@ -195,6 +200,9 @@ a{
   width: 500px;
   margin: 60px auto;
   color: #ccc;
+}
+.skills h3 {
+  font-family: 'Roboto', sans-serif;
 }
 .skills li{
   margin: 30px 0;
@@ -313,8 +321,10 @@ a{
     .clouds a{
       color: rgb(148, 148, 148);
       font-size: small;
-      font-family: Arial, Helvetica, sans-serif;
       font-weight: bold;
+    }
+    .footer p, a{
+      font-size: medium;
     }
 }
 /* ipad */
