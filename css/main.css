@@ -317,3 +317,16 @@ a{
       font-weight: bold;
     }
 }
+/* ipad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .profile img {
+    margin-left: 40%;
+  }   
+}
+/* ipad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait){
+  .profile img {
+      margin-left: 42%;
+    }
+  }
+}
