@@ -37,7 +37,7 @@ header{
   font-weight: bold;
 }
 .sobre-skills{
-  margin-left: 45px;
+  margin-left: 40px;
 }
 .redes-sociais {
   margin-bottom: 40px;
@@ -236,6 +236,9 @@ a{
     }
     .redes-sociais ul{
       padding-right: 40px;
+    }
+    .sobre-skills{
+      margin-left: 35px;
     }
     .parallax {
       width: 250px;
