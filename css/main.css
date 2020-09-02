@@ -289,10 +289,25 @@ a{
 /* ipad Pro */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait){
   .profile img {
-      margin-left: 42%;
+      margin-left: 45%;
     }
     .redes-sociais {
       margin-left: 48px;
     }
   }
+  @media screen and (min-width: 1600px) {
+    .profile img {
+      margin-left: 46%;
+    }
+    .skills ul {
+      margin-left: 44%;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .profile img {
+      margin-left: 47%;
+    }
+    .skills ul {
+      margin-left: 46%;
+    }
 }
