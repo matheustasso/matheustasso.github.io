@@ -306,10 +306,17 @@ a{
     }
     .projects ul {
       margin-top: 50px;
-      margin-left: -120px;
+      margin-left: -63px;
+    }
+    .projects a {
+      margin-left: 0px;
     }
     .projects li{
       padding-top: 30px;
+    }
+    .projects img {
+      max-width:300px;
+      max-height:300px;
     }
     .clouds ul{
       padding-right: -12px;
