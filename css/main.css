@@ -100,6 +100,7 @@ header::before{
   }
 }
 */
+
 .profile img {
   margin-bottom: -15px;
   margin-left: 600px;
@@ -245,6 +246,13 @@ a{
 .projects li{
   padding-top: 30px;
 }
+.projects img {
+  border-radius: 20px;
+}
+.projects .tittle a{
+  margin-left: 2%;
+}
+
 @media (max-width: 859px){
     h1, h2, h3, p, a {
       width: 98%;
@@ -299,9 +307,8 @@ a{
       padding-top: 30px;
     }
     .projects{
-      padding-bottom: 90px;
       width: 250px;
-      margin: 60px auto;
+      margin: auto;
       color: #ccc;
     }
     .projects ul {
